@@ -12,7 +12,7 @@ while(found == False):
     if(first==html):
         print("Checked (%s)" % datetime.datetime.now().strftime('%I:%M:%S'))
         page=""
-        time.sleep(4)
+        time.sleep(5)
     else:
         notify()
         webbrowser.open("http://yeezysupply.com/")
